@@ -1,0 +1,159 @@
+.background {
+    position: relative;
+    display: inline-block;
+}
+.background img {
+    height: 1200px;
+    width: 100vw;
+    object-fit: cover;
+    opacity: 45%;
+    display: block;
+
+}
+
+.background .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,5,5.4);
+    pointer-events: none;
+}
+
+.navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.navbar {
+    font-weight: bold;
+    margin-left: 40px;
+    letter-spacing: 4px;
+    border-bottom: 5px solid rgb(183, 255, 0);
+    border-top: 5px solid gold;
+}
+
+.navbar a:hover {
+    border-radius: 2px;
+    border-bottom: 3px  solid gold;
+}
+.logo img {
+    height: 20%;
+    width: 20%;
+    margin-right: 30%;
+    border-radius: 20%;
+    padding: 0;
+}
+
+.textbackground {
+    border-radius: 20px;
+    background-color: black;
+    color: goldenrod;
+    font-size: 55px;
+    top: 9%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.textbackground2 {
+    width: 50%;
+    top: 20%;
+    right: -7%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    align-items: center;
+    font-weight: bold;
+    font-size: 160%;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 8px;
+}
+
+
+.alat1 img {
+    top: 40%;
+    right: 60%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 27%;
+    height: 27%;
+    opacity: 100%;
+    border-radius: 25%; 
+}
+
+.alat1 p {
+    background-color: rgb(212, 255, 0);
+    top: 42%;
+    right: 19%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.alat2 img {
+    top: 73%;
+    right: 10%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 25%;
+    opacity: 100%;
+    border-radius: 25%; 
+}
+
+.alat2 p {
+    background-color: rgba(232, 218, 19, 0.873);
+    top: 75%;
+    right: 47%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.bg-gold {
+    background-color: black ;
+}
+
+.mb-1 {
+    color: gold;
+}
+
+.mb-0 {
+    color: gold;
+}
+.mb-0 text-light {
+    color: gold;
+}
+.mt-2 a {
+    color: gold;
+    text-decoration: none;
+}
+
+.mt-2 a:hover {
+    border-radius: 20px;
+    border-bottom: 3px solid gold;
+}
